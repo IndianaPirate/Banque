@@ -5,9 +5,9 @@ import java.util.Date;
 import java.util.List;
 
 public abstract class Compte {
-    private int code;
-    private double solde;
-    private List<Operation> operations = new ArrayList<>();
+    protected int code;
+    protected double solde;
+    protected List<Operation> operations = new ArrayList<>();
 
     public Compte() {
         super();
